@@ -1,97 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "default": {
     "rpd": "Asma -\nHT -\nDM -",
     "alergi": "Obat disangkal\nMakanan disangkal",
     "rpo": "Disangkal"
   },
-  "templates": {
-    "Sesak": {
-      "alias": [
-        "dyspnea",
-        "pneumonia",
-        "gagal napas"
-      ],
-      "ku": "Sesak",
-      "rps": "Demam sejak x hari yang lalu. Naik turun dengan pengobatan.\nBatuk (?), sejak x hari yang lalu. Pilek (?), sejak x hari yang lalu."
-    },
-    "Diare": {
-      "alias": [
-        "gea",
-        "gastroenteritis",
-        "bab cair",
-        "dehidrasi"
-      ],
-      "ku": "Diare",
-      "rps": "BAB cair sejak x hari yang lalu, frekuensi x kali/hari, volume (sedikit/banyak). Ampas (?), lendir (?), darah (?).\nMual (?), muntah (?) x kali/hari.\nDemam (?), sejak x hari yang lalu. Nyeri perut (?).\nIntake makan/minum menurun (?). BAK terakhir x jam yang lalu.\nRiwayat makan/minum tidak biasa (?), riwayat konsumsi antibiotik (?)."
-    },
-    "Lemas": {
-      "alias": [
-        "lemah",
-        "malaise",
-        "fatigue",
-        "weakness"
-      ],
-      "ku": "Lemas",
-      "rps": "Lemas seluruh badan sejak x hari yang lalu, (terus-menerus / hilang timbul).\nLemas anggota gerak sebelah (?), bicara pelo (?), mulut mencong (?).\nDemam (?), sejak x hari yang lalu. Mual (?), muntah (?). BAB cair (?), BAB hitam (?).\nIntake makan/minum menurun (?). BAK berkurang (?).\nPusing (?), berkunang-kunang (?), pingsan (?)."
-    },
-    "Mual muntah": {
-      "alias": [
-        "nausea",
-        "vomiting",
-        "emesis",
-        "dispepsia",
-        "gastritis"
-      ],
-      "ku": "Mual muntah",
-      "rps": "Mual dan muntah sejak x hari yang lalu, frekuensi muntah x kali/hari, isi muntahan (makanan / cairan / lendir / darah (?) / empedu (?)).\nNyeri ulu hati (?), nyeri perut (?). Demam (?), sejak x hari yang lalu.\nBAB cair (?), BAB hitam (?). Nyeri kepala (?), pusing berputar (?).\nIntake makan/minum menurun (?)."
-    },
-    "Sesak - ALO": {
-      "alias": [
-        "alo",
-        "edema paru",
-        "oedema paru",
-        "acute lung oedema",
-        "gagal jantung",
-        "chf",
-        "adhf",
-        "payah jantung"
-      ],
-      "ku": "Sesak",
-      "rps": "Sesak napas sejak x jam/hari yang lalu, (mendadak / bertahap), memberat saat aktivitas (?), memberat saat berbaring/orthopnea (?), terbangun malam karena sesak/PND (?). Tidur dengan x bantal.\nBatuk (?), dahak berbusa/merah muda (?). Nyeri dada (?), berdebar (?), keringat dingin (?).\nBengkak kedua kaki (?), berat badan naik (?), BAK berkurang (?).\nDemam (?), batuk pilek (?). Mengi/ngik-ngik (?).\nIntake garam/cairan berlebih (?), kepatuhan minum obat (?).",
-      "rpd": "HT -\nDM -\nAsma -\nPenyakit jantung (?)\nPenyakit ginjal (?)",
-      "rpo": "Obat jantung/diuretik rutin (?)"
-    },
-    "Sesak - Dispepsia": {
-      "alias": [
-        "dispepsia",
-        "dyspepsia",
-        "gerd",
-        "maag",
-        "gastritis",
-        "refluks"
-      ],
-      "ku": "Sesak",
-      "rps": "Sesak napas sejak x jam/hari yang lalu, muncul setelah makan (?), memberat saat berbaring (?), tidak dipengaruhi aktivitas (?).\nNyeri ulu hati (?), rasa penuh/begah (?), kembung (?), sering sendawa (?), mual (?), muntah (?), rasa asam/panas naik ke dada (?).\nNyeri dada (?), menjalar ke lengan/rahang/punggung (?), keringat dingin (?), berdebar (?).\nBatuk (?), demam (?). Bengkak kaki (?), terbangun malam karena sesak (?).\nPola makan telat/pedas/asam (?). Konsumsi kopi/rokok/alkohol (?), konsumsi NSAID/steroid (?). BAB hitam (?).",
-      "rpd": "Maag/GERD (?)\nPenyakit jantung (?)\nAsma -\nHT -\nDM -"
-    },
-    "Sesak - Asma/PPOK": {
-      "alias": [
-        "asma",
-        "ppok",
-        "eksaserbasi",
-        "mengi",
-        "wheezing",
-        "bronkospasme"
-      ],
-      "ku": "Sesak",
-      "rps": "Sesak napas sejak x jam/hari yang lalu, (mendadak / bertahap), disertai mengi/ngik-ngik (?).\nBatuk (?), dahak (?) warna (?). Demam (?), pilek (?).\nPencetus: alergen/debu/udara dingin/aktivitas/asap rokok (?). Riwayat serangan serupa (?), frekuensi serangan x kali/bulan.\nSudah memakai inhaler/nebulizer sebelum datang (?), perbaikan (?).\nNyeri dada (?), bengkak kaki (?), memberat saat berbaring (?).",
-      "rpd": "Asma (?)\nPPOK (?)\nAlergi/atopi (?)\nHT -\nDM -",
-      "rpo": "Inhaler/nebulizer rutin (?)"
-    }
+  "default_anak": {
+    "rpd": "Asma -\nKejang -\nImunisasi dasar (?)",
+    "alergi": "Obat disangkal\nMakanan disangkal",
+    "rpo": "Disangkal"
   },
+  "templates": {},
   "files": [
     "templates/kardio.json",
+    "templates/respirasi.json",
     "templates/abdomen.json",
     "templates/infeksi-metabolik.json",
     "templates/neuro.json",
