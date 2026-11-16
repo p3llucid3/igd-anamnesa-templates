@@ -89,5 +89,12 @@
       "rpd": "Asma (?)\nPPOK (?)\nAlergi/atopi (?)\nHT -\nDM -",
       "rpo": "Inhaler/nebulizer rutin (?)"
     }
-  }
+  },
+  "files": [
+    "templates/kardio.json",
+    "templates/abdomen.json",
+    "templates/infeksi-metabolik.json",
+    "templates/neuro.json",
+    "templates/trauma-ortopedi.json"
+  ]
 }
