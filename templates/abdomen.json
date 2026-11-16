@@ -1,0 +1,104 @@
+{
+  "templates": {
+    "Nyeri perut - Dispepsia/Gastritis": {
+      "alias": [
+        "dispepsia",
+        "gastritis",
+        "maag",
+        "gerd",
+        "ulkus peptikum",
+        "nyeri ulu hati"
+      ],
+      "ku": "Nyeri ulu hati",
+      "rps": "Nyeri ulu hati sejak x hari yang lalu, hilang timbul (?), perih/panas/ditusuk (?), memberat sebelum/sesudah makan (?).\nMual (?), muntah (?), begah (?), kembung (?), cepat kenyang (?), sendawa (?), rasa asam naik ke tenggorok (?).\nPola makan telat/pedas/asam (?). Kopi/rokok/alkohol (?), NSAID/steroid (?), stres (?).\nBAB hitam (?), muntah darah (?), berat badan turun (?), sulit menelan (?).\nNyeri menjalar ke dada/punggung (?), keringat dingin (?) (singkirkan ACS/pankreatitis).",
+      "rpd": "Maag/GERD (?)\nPenyakit jantung (?)\nAsma -\nHT -\nDM -",
+      "rpo": "NSAID/steroid (?)"
+    },
+    "Nyeri perut - Apendisitis": {
+      "alias": [
+        "apendisitis",
+        "appendicitis",
+        "usus buntu",
+        "nyeri perut kanan bawah"
+      ],
+      "ku": "Nyeri perut",
+      "rps": "Nyeri perut sejak x jam/hari yang lalu, awalnya di ulu hati/sekitar pusar (?), lalu berpindah ke perut kanan bawah (?).\nMemberat dengan gerakan/batuk/berjalan (?).\nMual (?), muntah (?), nafsu makan menurun (?). Demam (?). BAB cair (?) / sulit BAB (?), BAK nyeri (?).\nRiwayat nyeri serupa (?), riwayat operasi perut (?).\nPada wanita: HPHT (?), keputihan (?), nyeri saat haid (?).",
+      "rpd": "Riwayat operasi abdomen (?)\nApendisitis sebelumnya (?)\nAsma -\nHT -\nDM -"
+    },
+    "Nyeri perut - Kolik bilier": {
+      "alias": [
+        "kolelitiasis",
+        "kolesistitis",
+        "batu empedu",
+        "kolik bilier",
+        "kolangitis"
+      ],
+      "ku": "Nyeri perut kanan atas",
+      "rps": "Nyeri perut kanan atas/ulu hati sejak x jam/hari yang lalu, hilang timbul/terus-menerus (?), menjalar ke punggung kanan/bahu kanan (?).\nMuncul setelah makan berlemak (?). Mual (?), muntah (?).\nDemam (?), menggigil (?). Mata/kulit kuning (?), BAK seperti teh (?), BAB pucat (?).\nRiwayat nyeri serupa (?), riwayat batu empedu (?).",
+      "rpd": "Batu empedu (?)\nDM -\nHT -\nAsma -"
+    },
+    "Nyeri perut - Pankreatitis": {
+      "alias": [
+        "pankreatitis",
+        "pancreatitis",
+        "nyeri perut atas"
+      ],
+      "ku": "Nyeri perut atas",
+      "rps": "Nyeri perut ulu hati/atas sejak x jam/hari yang lalu, hebat (?), menembus ke punggung (?), membaik bila membungkuk (?).\nMual (?), muntah berulang (?), demam (?), perut kembung (?).\nKonsumsi alkohol (?), makan berlemak/pesta (?), batu empedu (?).\nRiwayat nyeri serupa (?), hipertrigliserida (?), obat tertentu (?)."
+    },
+    "Nyeri perut - Ileus/Obstruksi": {
+      "alias": [
+        "ileus",
+        "obstruksi usus",
+        "hernia inkarserata",
+        "ileus obstruktif"
+      ],
+      "ku": "Nyeri perut",
+      "rps": "Nyeri perut sejak x hari yang lalu, kolik/hilang timbul (?), difus (?).\nMual (?), muntah berulang (?), muntah hijau/seperti feses (?). Perut kembung (?).\nTidak BAB sejak x hari (?), tidak bisa kentut sejak x hari (?).\nBenjolan di lipat paha/pusar/perut (?), riwayat hernia (?).\nRiwayat operasi perut (?), keganasan (?), berat badan turun (?), perubahan pola BAB (?).",
+      "rpd": "Riwayat operasi abdomen (?)\nHernia (?)\nKeganasan (?)\nHT -\nDM -"
+    },
+    "Nyeri perut bawah - Ginekologi/KET": {
+      "alias": [
+        "ket",
+        "kehamilan ektopik",
+        "kista",
+        "salpingitis",
+        "abortus",
+        "dismenore",
+        "pid",
+        "nyeri perut bawah wanita"
+      ],
+      "ku": "Nyeri perut bawah",
+      "rps": "Nyeri perut bawah sejak x jam/hari yang lalu, (mendadak / bertahap), (satu sisi / difus) (?).\nHPHT (?), terlambat haid (?), tes kehamilan (?).\nPerdarahan dari jalan lahir (?), jumlah (?), keluar jaringan (?). Keputihan berbau (?), demam (?).\nPusing (?), pingsan (?), nyeri bahu (?).\nRiwayat kehamilan ektopik/kista/operasi pelvis (?), KB (?), riwayat IMS (?).",
+      "rpd": "Kista ovarium/mioma (?)\nKehamilan ektopik (?)\nAsma -\nHT -\nDM -"
+    },
+    "Nyeri pinggang - Kolik ureter": {
+      "alias": [
+        "batu ginjal",
+        "urolitiasis",
+        "kolik ureter",
+        "kolik renal",
+        "bno ivp",
+        "batu saluran kemih"
+      ],
+      "ku": "Nyeri pinggang",
+      "rps": "Nyeri pinggang sejak x jam/hari yang lalu, hilang timbul/kolik (?), kanan/kiri (?), menjalar ke perut bawah/selangkangan/kemaluan (?).\nGelisah, tidak bisa diam (?). Mual (?), muntah (?).\nBAK berdarah (?), nyeri saat BAK (?), BAK sedikit/tidak keluar (?), BAK berpasir (?).\nDemam (?), menggigil (?). Riwayat batu saluran kemih (?), nyeri serupa sebelumnya (?). Intake minum sedikit (?).",
+      "rpd": "Batu saluran kemih (?)\nISK (?)\nDM -\nHT -"
+    },
+    "Muntah darah/BAB hitam - Perdarahan SCBA": {
+      "alias": [
+        "hematemesis",
+        "melena",
+        "scba",
+        "perdarahan saluran cerna",
+        "bab hitam",
+        "muntah darah",
+        "varises"
+      ],
+      "ku": "Muntah darah / BAB hitam",
+      "rps": "Muntah darah sejak x jam/hari yang lalu, x kali, jumlah ± x cc/gelas (?), (merah segar / hitam seperti kopi) (?).\nBAB hitam, lengket, berbau khas sejak x hari, x kali/hari (?). BAB merah segar (?).\nLemas (?), pusing (?), berkunang-kunang (?), pingsan (?), berdebar (?), keringat dingin (?).\nNyeri ulu hati (?), riwayat maag/tukak (?), NSAID/steroid/antikoagulan (?), alkohol (?).\nRiwayat sakit hati/sirosis/hepatitis (?), perut membesar (?), mata kuning (?). Muntah hebat sebelum muntah darah (?).",
+      "rpd": "Maag/tukak (?)\nSirosis/hepatitis (?)\nPerdarahan saluran cerna sebelumnya (?)\nHT -\nDM -",
+      "rpo": "NSAID/steroid/antikoagulan (?)"
+    }
+  }
+}
