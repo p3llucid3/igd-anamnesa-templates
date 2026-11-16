@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "default": {
+    "rpd": "Asma -\nHT -\nDM -",
+    "alergi": "Obat disangkal\nMakanan disangkal",
+    "rpo": "Disangkal"
+  },
+  "templates": {
+    "Sesak": {
+      "alias": [
+        "dyspnea",
+        "asma",
+        "ppok",
+        "pneumonia",
+        "gagal napas"
+      ],
+      "ku": "Sesak",
+      "rps": "Demam sejak x hari yang lalu. Naik turun dengan pengobatan.\nBatuk (?), sejak x hari yang lalu. Pilek (?), sejak x hari yang lalu."
+    },
+    "Diare": {
+      "alias": [
+        "gea",
+        "gastroenteritis",
+        "bab cair",
+        "dehidrasi"
+      ],
+      "ku": "Diare",
+      "rps": "BAB cair sejak x hari yang lalu, frekuensi x kali/hari, volume (sedikit/banyak). Ampas (?), lendir (?), darah (?).\nMual (?), muntah (?) x kali/hari.\nDemam (?), sejak x hari yang lalu. Nyeri perut (?).\nIntake makan/minum menurun (?). BAK terakhir x jam yang lalu.\nRiwayat makan/minum tidak biasa (?), riwayat konsumsi antibiotik (?)."
+    },
+    "Lemas": {
+      "alias": [
+        "lemah",
+        "malaise",
+        "fatigue",
+        "weakness"
+      ],
+      "ku": "Lemas",
+      "rps": "Lemas seluruh badan sejak x hari yang lalu, (terus-menerus / hilang timbul).\nLemas anggota gerak sebelah (?), bicara pelo (?), mulut mencong (?).\nDemam (?), sejak x hari yang lalu. Mual (?), muntah (?). BAB cair (?), BAB hitam (?).\nIntake makan/minum menurun (?). BAK berkurang (?).\nPusing (?), berkunang-kunang (?), pingsan (?)."
+    },
+    "Mual muntah": {
+      "alias": [
+        "nausea",
+        "vomiting",
+        "emesis",
+        "dispepsia",
+        "gastritis"
+      ],
+      "ku": "Mual muntah",
+      "rps": "Mual dan muntah sejak x hari yang lalu, frekuensi muntah x kali/hari, isi muntahan (makanan / cairan / lendir / darah (?) / empedu (?)).\nNyeri ulu hati (?), nyeri perut (?). Demam (?), sejak x hari yang lalu.\nBAB cair (?), BAB hitam (?). Nyeri kepala (?), pusing berputar (?).\nIntake makan/minum menurun (?)."
+    }
+  }
+}
