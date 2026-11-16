@@ -1,5 +1,34 @@
 {
   "templates": {
+    "Diare - GEA (Dewasa)": {
+      "alias": [
+        "gea",
+        "gastroenteritis akut",
+        "gastroenteritis",
+        "bab cair",
+        "dehidrasi"
+      ],
+      "grup": [
+        "dewasa"
+      ],
+      "ku": "Diare",
+      "rps": "BAB cair sejak x hari yang lalu, frekuensi x kali/hari, volume (sedikit/banyak). Ampas (?), lendir (?), darah (?).\nMual (?), muntah (?) x kali/hari.\nDemam (?), sejak x hari yang lalu. Nyeri perut (?).\nIntake makan/minum menurun (?). BAK terakhir x jam yang lalu.\nRiwayat makan/minum tidak biasa (?), riwayat konsumsi antibiotik (?)."
+    },
+    "Diare - GEA (Anak)": {
+      "alias": [
+        "gea",
+        "gastroenteritis akut",
+        "gastroenteritis",
+        "bab cair",
+        "dehidrasi",
+        "diare anak"
+      ],
+      "grup": [
+        "anak"
+      ],
+      "ku": "Diare",
+      "rps": "BAB cair sejak x hari yang lalu, frekuensi x kali/hari, volume (sedikit / banyak). Ampas (?), lendir (?), darah (?).\nMuntah x kali/hari (?), demam (?), sejak x hari yang lalu. Nyeri perut/kembung (?).\nMinum (mau / tidak mau / sangat haus) (?), rewel/lemas (?), mata cekung (?), ubun-ubun cekung (?), air mata tidak ada (?), mulut kering (?).\nBAK terakhir x jam yang lalu, jumlah (?). ASI/susu formula/makanan baru (?), jajan (?), sumber air (?), kontak dengan orang diare (?), antibiotik (?). Sudah diberi oralit/zinc (?)."
+    },
     "Nyeri perut - Dispepsia/Gastritis": {
       "alias": [
         "dispepsia",
@@ -33,6 +62,9 @@
         "kolik bilier",
         "kolangitis"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Nyeri perut kanan atas",
       "rps": "Nyeri perut kanan atas/ulu hati sejak x jam/hari yang lalu, hilang timbul/terus-menerus (?), menjalar ke punggung kanan/bahu kanan (?).\nMuncul setelah makan berlemak (?). Mual (?), muntah (?).\nDemam (?), menggigil (?). Mata/kulit kuning (?), BAK seperti teh (?), BAB pucat (?).\nRiwayat nyeri serupa (?), riwayat batu empedu (?).",
       "rpd": "Batu empedu (?)\nDM -\nHT -\nAsma -"
@@ -42,6 +74,9 @@
         "pankreatitis",
         "pancreatitis",
         "nyeri perut atas"
+      ],
+      "grup": [
+        "dewasa"
       ],
       "ku": "Nyeri perut atas",
       "rps": "Nyeri perut ulu hati/atas sejak x jam/hari yang lalu, hebat (?), menembus ke punggung (?), membaik bila membungkuk (?).\nMual (?), muntah berulang (?), demam (?), perut kembung (?).\nKonsumsi alkohol (?), makan berlemak/pesta (?), batu empedu (?).\nRiwayat nyeri serupa (?), hipertrigliserida (?), obat tertentu (?)."
@@ -68,6 +103,9 @@
         "pid",
         "nyeri perut bawah wanita"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Nyeri perut bawah",
       "rps": "Nyeri perut bawah sejak x jam/hari yang lalu, (mendadak / bertahap), (satu sisi / difus) (?).\nHPHT (?), terlambat haid (?), tes kehamilan (?).\nPerdarahan dari jalan lahir (?), jumlah (?), keluar jaringan (?). Keputihan berbau (?), demam (?).\nPusing (?), pingsan (?), nyeri bahu (?).\nRiwayat kehamilan ektopik/kista/operasi pelvis (?), KB (?), riwayat IMS (?).",
       "rpd": "Kista ovarium/mioma (?)\nKehamilan ektopik (?)\nAsma -\nHT -\nDM -"
@@ -80,6 +118,9 @@
         "kolik renal",
         "bno ivp",
         "batu saluran kemih"
+      ],
+      "grup": [
+        "dewasa"
       ],
       "ku": "Nyeri pinggang",
       "rps": "Nyeri pinggang sejak x jam/hari yang lalu, hilang timbul/kolik (?), kanan/kiri (?), menjalar ke perut bawah/selangkangan/kemaluan (?).\nGelisah, tidak bisa diam (?). Mual (?), muntah (?).\nBAK berdarah (?), nyeri saat BAK (?), BAK sedikit/tidak keluar (?), BAK berpasir (?).\nDemam (?), menggigil (?). Riwayat batu saluran kemih (?), nyeri serupa sebelumnya (?). Intake minum sedikit (?).",

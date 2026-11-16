@@ -11,6 +11,9 @@
         "sindrom koroner akut",
         "ami"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Nyeri dada",
       "rps": "Nyeri dada sejak x jam yang lalu, (mendadak / bertahap), saat aktivitas/istirahat (?), durasi x menit (?).\nSifat ditekan/ditindih/terbakar (?), retrosternal/dada kiri (?), menjalar ke lengan kiri/rahang/punggung (?).\nMembaik dengan istirahat/nitrat (?). Riwayat nyeri serupa sebelumnya (?).\nSesak (?), keringat dingin (?), mual (?), muntah (?), berdebar (?), pingsan (?).\nNyeri dipengaruhi napas/posisi/gerakan (?) (singkirkan pleuritik/muskuloskeletal).\nFaktor risiko: HT (?), DM (?), dislipidemia (?), perokok (?), riwayat keluarga penyakit jantung (?).",
       "rpd": "HT (?)\nDM (?)\nDislipidemia (?)\nPenyakit jantung (?)\nAsma -",
@@ -23,6 +26,9 @@
         "kostokondritis",
         "dispepsia",
         "nyeri dada atipikal"
+      ],
+      "grup": [
+        "dewasa"
       ],
       "ku": "Nyeri dada",
       "rps": "Nyeri dada sejak x jam/hari yang lalu, hilang timbul (?), durasi x detik/menit (?).\nMenusuk/tertekan/panas (?), dada kiri/tengah (?), tidak menjalar (?), bisa ditunjuk dengan satu jari (?).\nMemberat dengan gerakan/perubahan posisi/ditekan (?), napas dalam (?), setelah makan (?).\nNyeri ulu hati (?), rasa asam naik (?), sendawa (?). Riwayat trauma/aktivitas fisik berat (?), batuk lama (?).\nSesak (?), keringat dingin (?), mual (?), menjalar ke lengan (?) (singkirkan ACS).\nFaktor risiko jantung: HT (?), DM (?), perokok (?).",
@@ -37,6 +43,9 @@
         "pleuritis",
         "efusi pleura"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Nyeri dada",
       "rps": "Nyeri dada sejak x jam/hari yang lalu, tajam/menusuk (?), memberat saat tarik napas dalam/batuk (?), satu sisi (kanan/kiri) (?).\nSesak (?), batuk (?), dahak (?), batuk darah (?). Demam (?), menggigil (?).\nNyeri/bengkak satu tungkai (?), riwayat imobilisasi/operasi/bepergian jauh (?), riwayat DVT/emboli (?), kontrasepsi hormonal (?), keganasan (?).\nRiwayat trauma dada (?), mendadak setelah batuk/mengejan (?) (singkirkan pneumotoraks). Riwayat TB (?), perokok (?).",
       "rpd": "TB -\nAsma -\nDVT/emboli paru (?)\nKeganasan (?)\nHT -\nDM -"
@@ -50,6 +59,9 @@
         "palpitasi",
         "takikardia",
         "berdebar"
+      ],
+      "grup": [
+        "dewasa"
       ],
       "ku": "Berdebar",
       "rps": "Berdebar sejak x jam yang lalu, (mendadak / bertahap), (teratur / tidak teratur) (?), durasi x menit (?), (berhenti sendiri / menetap) (?).\nNyeri dada (?), sesak (?), pusing (?), pingsan/hampir pingsan (?), keringat dingin (?), lemas (?).\nPencetus: kopi/rokok/alkohol/stres/aktivitas (?), demam (?), muntah/diare (?), obat tertentu (?).\nRiwayat berdebar sebelumnya (?), penyakit jantung (?), tiroid (?), HT (?), DM (?). Kematian mendadak pada keluarga (?).",
