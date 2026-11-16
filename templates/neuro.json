@@ -22,6 +22,9 @@
         "tekanan darah tinggi",
         "ht"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Nyeri kepala",
       "rps": "Nyeri kepala/pusing sejak x jam/hari yang lalu, belakang kepala/tengkuk berat (?).\nTekanan darah tinggi di rumah/puskesmas x/x mmHg (?).\nPandangan kabur (?), mual (?), muntah (?), berdebar (?), nyeri dada (?), sesak (?).\nKelemahan sebelah/bicara pelo (?), kejang (?), penurunan kesadaran (?).\nHT sejak x tahun (?), kepatuhan minum obat (?), terakhir minum obat (?). Konsumsi garam/kopi/rokok (?).",
       "rpd": "HT (?)\nDM -\nPenyakit jantung -\nPenyakit ginjal -\nStroke -",
@@ -48,6 +51,9 @@
         "pusing berputar",
         "meniere"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Pusing berputar",
       "rps": "Pusing berputar sejak x jam/hari yang lalu, (mendadak / bertahap) (?), dipicu perubahan posisi kepala (?), durasi tiap serangan x detik/menit (?).\nMual (?), muntah (?), telinga berdenging (?), pendengaran menurun (?), telinga terasa penuh (?). Nyeri telinga/keluar cairan (?), ISPA (?).\nBicara pelo (?), kelemahan sebelah (?), penglihatan ganda (?), sulit menelan (?), nyeri kepala hebat (?), sulit berjalan/jatuh (?) (singkirkan sentral).\nVertigo sebelumnya (?), HT (?), DM (?).",
       "rpd": "Vertigo (?)\nHT (?)\nDM (?)\nStroke -"
@@ -63,24 +69,13 @@
         "cva",
         "pelo"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Lemah anggota gerak sebelah",
       "rps": "Lemah anggota gerak (kanan/kiri) sejak x jam yang lalu, (mendadak / bertahap), saat (tidur / beraktivitas) (?). Terakhir terlihat normal pukul x.\nBicara pelo (?), mulut mencong (?), sulit memahami/mengeluarkan kata (?), sulit menelan (?).\nNyeri kepala (?), muntah (?), kejang (?), penurunan kesadaran (?), pusing berputar (?), pandangan kabur/ganda (?).\nRiwayat stroke/TIA (?), HT (?), DM (?), AF/penyakit jantung (?), dislipidemia (?), perokok (?).\nRiwayat trauma kepala (?), antikoagulan/antiplatelet (?).",
       "rpd": "HT (?)\nDM (?)\nStroke/TIA (?)\nPenyakit jantung/AF (?)\nDislipidemia (?)",
       "rpo": "Antiplatelet/antikoagulan (?)\nObat HT/DM rutin (?)"
-    },
-    "Penurunan kesadaran": {
-      "alias": [
-        "penurunan kesadaran",
-        "koma",
-        "somnolen",
-        "gcs rendah",
-        "apatis",
-        "pingsan lama"
-      ],
-      "ku": "Penurunan kesadaran",
-      "rps": "Penurunan kesadaran sejak x jam yang lalu, (mendadak / bertahap), saat (aktivitas / tidur / setelah ...) (?).\nDidahului nyeri kepala (?), muntah (?), kejang (?), demam (?), lemas/keringat dingin (?), sesak (?).\nRiwayat DM (?), gula darah (?), HT (?), stroke (?), penyakit jantung (?), ginjal (?), hati (?).\nRiwayat trauma kepala (?), alkohol/obat/zat/racun (?), insulin/OHO (?).\nAlloanamnesa (keluarga/saksi): ...",
-      "rpd": "DM (?)\nHT (?)\nStroke (?)\nPenyakit jantung (?)\nPenyakit ginjal/hati (?)",
-      "rpo": "Insulin/OHO (?)\nObat tidur/sedatif (?)"
     },
     "Kejang - Kejang demam": {
       "alias": [
@@ -90,6 +85,9 @@
         "kdk",
         "febrile seizure",
         "kejang anak"
+      ],
+      "grup": [
+        "anak"
       ],
       "ku": "Kejang",
       "rps": "Kejang x kali sejak x jam yang lalu, durasi x menit, (seluruh tubuh / satu sisi / mata mendelik) (?), kaku (?) / kelojotan (?), setelah kejang (sadar / tidur / menangis) (?).\nDemam sejak x jam/hari sebelum kejang (?), suhu x°C. Kejang berulang dalam 24 jam (?), kejang fokal (?).\nBatuk pilek (?), muntah (?), BAB cair (?), nyeri telinga (?), nyeri BAK (?). Muntah menyemprot (?), rewel/lemas (?), ubun-ubun cembung (?).\nKejang demam sebelumnya (?), epilepsi/kejang demam pada keluarga (?), perkembangan anak (?), imunisasi (?).",

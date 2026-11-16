@@ -1,6 +1,6 @@
 {
   "templates": {
-    "Demam - DBD": {
+    "Demam - DBD (Dewasa)": {
       "alias": [
         "dbd",
         "dengue",
@@ -8,21 +8,56 @@
         "demam berdarah",
         "dengue fever"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Demam",
       "rps": "Demam sejak x hari yang lalu, tinggi (?), terus-menerus (?), tanpa menggigil (?).\nNyeri kepala (?), nyeri belakang mata (?), nyeri otot/sendi (?). Mual (?), muntah (?), nyeri perut (?), nafsu makan menurun (?).\nMimisan (?), gusi berdarah (?), BAB hitam (?), bintik merah di kulit (?), haid banyak (?).\nTangan/kaki dingin (?), lemas (?), BAK berkurang (?).\nKeluarga/tetangga sakit serupa (?), lingkungan banyak nyamuk (?).",
       "rpd": "DBD sebelumnya (?)\nAsma -\nHT -\nDM -"
     },
-    "Demam - Tifoid": {
+    "Demam - DBD (Anak)": {
+      "alias": [
+        "dbd",
+        "dengue",
+        "dhf",
+        "demam berdarah",
+        "dbd anak"
+      ],
+      "grup": [
+        "anak"
+      ],
+      "ku": "Demam",
+      "rps": "Demam sejak x hari yang lalu, tinggi (?), terus-menerus (?), turun dengan obat penurun panas (?).\nRewel/lemas (?), nafsu makan/minum menurun (?), mual (?), muntah x kali (?), nyeri perut (?), nyeri kepala (?).\nMimisan (?), gusi berdarah (?), BAB hitam (?), bintik merah di kulit (?).\nTangan/kaki dingin (?), mengantuk/tidak mau bermain (?), BAK terakhir x jam yang lalu.\nBatuk pilek (?), nyeri telinga (?) (singkirkan ISPA). Keluarga/tetangga sakit serupa (?).",
+      "rpd": "DBD sebelumnya (?)\nKejang demam -\nAsma -"
+    },
+    "Demam - Tifoid (Dewasa)": {
       "alias": [
         "tifoid",
         "typhoid",
         "tifus",
         "demam tifoid"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Demam",
       "rps": "Demam sejak x hari yang lalu, naik bertahap/lebih tinggi sore-malam (?), tidak turun dengan obat (?).\nNyeri perut (?), mual (?), muntah (?), BAB cair (?) / sulit BAB (?), lidah kotor (?), nafsu makan menurun (?).\nNyeri kepala (?), lemas (?), pusing (?), batuk (?). BAB hitam (?), perut kembung (?).\nSering jajan/makan di luar (?), riwayat tifoid sebelumnya (?)."
     },
-    "Demam - ISK": {
+    "Demam - Tifoid (Anak)": {
+      "alias": [
+        "tifoid",
+        "typhoid",
+        "tifus",
+        "demam tifoid",
+        "tifoid anak"
+      ],
+      "grup": [
+        "anak"
+      ],
+      "ku": "Demam",
+      "rps": "Demam sejak x hari yang lalu, naik turun/lebih tinggi sore-malam (?), tidak turun dengan obat (?).\nNyeri perut (?), mual (?), muntah (?), BAB cair (?) / sulit BAB (?), nafsu makan menurun (?), lidah kotor (?).\nRewel/lemas (?), nyeri kepala (?), batuk (?). BAB hitam (?), perut kembung (?).\nSering jajan di luar/sekolah (?), riwayat tifoid sebelumnya (?), anggota keluarga sakit serupa (?)."
+    },
+    "Demam - ISK (Dewasa)": {
       "alias": [
         "isk",
         "infeksi saluran kemih",
@@ -30,11 +65,28 @@
         "sistitis",
         "anyang-anyangan"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Demam",
       "rps": "Demam sejak x hari yang lalu (?), menggigil (?).\nNyeri saat BAK (?), anyang-anyangan (?), sering BAK (?), BAK sedikit-sedikit (?), BAK berdarah (?), BAK keruh/berbau (?).\nNyeri pinggang (?), nyeri perut bawah (?). Mual (?), muntah (?).\nKeputihan (?), riwayat batu saluran kemih (?), ISK berulang (?), memakai kateter (?).",
       "rpd": "ISK sebelumnya (?)\nBatu saluran kemih (?)\nDM -\nHT -"
     },
-    "Batuk pilek - ISPA": {
+    "Demam - ISK (Anak)": {
+      "alias": [
+        "isk",
+        "infeksi saluran kemih",
+        "pielonefritis",
+        "isk anak"
+      ],
+      "grup": [
+        "anak"
+      ],
+      "ku": "Demam",
+      "rps": "Demam sejak x hari yang lalu, tanpa batuk pilek (?), menggigil (?).\nRewel (?), muntah (?), nafsu makan menurun (?).\nMenangis/nyeri saat BAK (?), sering BAK (?), ngompol baru (?), BAK keruh/berbau/berdarah (?), nyeri perut/pinggang (?).\nISK sebelumnya (?), kelainan saluran kemih (?), menahan BAK (?), memakai popok (?).",
+      "rpd": "ISK sebelumnya (?)\nKelainan saluran kemih (?)\nKejang demam -\nAsma -"
+    },
+    "Batuk pilek - ISPA (Dewasa)": {
       "alias": [
         "ispa",
         "common cold",
@@ -44,8 +96,26 @@
         "nyeri tenggorok",
         "radang tenggorokan"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Batuk pilek",
       "rps": "Batuk sejak x hari yang lalu, (kering / berdahak) (?). Pilek (?), hidung tersumbat (?), bersin (?).\nNyeri tenggorok (?), nyeri menelan (?), suara serak (?). Demam (?), sejak x hari yang lalu.\nSesak (?), mengi (?). Nyeri telinga (?), nyeri wajah/pipi (?).\nKontak dengan orang sakit serupa (?). Perokok (?)."
+    },
+    "Batuk pilek - ISPA (Anak)": {
+      "alias": [
+        "ispa",
+        "common cold",
+        "faringitis",
+        "tonsilitis",
+        "otitis media",
+        "ispa anak"
+      ],
+      "grup": [
+        "anak"
+      ],
+      "ku": "Batuk pilek",
+      "rps": "Batuk pilek sejak x hari yang lalu, (kering / berdahak) (?). Demam (?), sejak x hari yang lalu.\nNyeri tenggorok/sulit menelan (?), rewel (?), nafsu makan/minum menurun (?), muntah (?).\nSesak (?), napas cepat (?), mengi (?), suara serak/batuk menggonggong (?).\nNyeri telinga/menarik telinga (?), keluar cairan dari telinga (?).\nKontak dengan orang sakit serupa (?), sekolah/penitipan anak (?), paparan asap rokok (?). BAK terakhir x jam yang lalu."
     },
     "Lemas - Hiperglikemia/KAD": {
       "alias": [
@@ -72,7 +142,7 @@
       "rpd": "DM (?)\nPenyakit ginjal (?)\nPenyakit hati (?)\nHT -",
       "rpo": "Insulin/OHO rutin (?), terakhir (?)"
     },
-    "Reaksi alergi - Urtikaria/Anafilaksis": {
+    "Reaksi alergi - Urtikaria/Anafilaksis (Dewasa)": {
       "alias": [
         "alergi",
         "urtikaria",
@@ -82,9 +152,30 @@
         "gatal",
         "reaksi alergi"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Gatal dan bentol-bentol",
       "rps": "Gatal, bentol/kemerahan sejak x jam yang lalu, di (lokasi) (?), (menyebar) (?).\nBengkak bibir/kelopak mata/wajah (?), sulit menelan (?), suara serak (?), sesak/mengi (?).\nPusing (?), lemas (?), pingsan (?), mual (?), muntah (?), nyeri perut (?), BAB cair (?).\nPencetus: makanan (?), obat (?), gigitan serangga (?), kosmetik/deterjen (?), debu/dingin (?).\nRiwayat alergi/asma/atopi (?), reaksi serupa sebelumnya (?). Sudah minum antihistamin (?).",
       "rpd": "Alergi/atopi (?)\nAsma (?)\nHT -\nDM -",
+      "alergi": "Obat (?)\nMakanan (?)"
+    },
+    "Reaksi alergi - Urtikaria/Anafilaksis (Anak)": {
+      "alias": [
+        "alergi",
+        "urtikaria",
+        "anafilaksis",
+        "angioedema",
+        "biduran",
+        "gatal",
+        "alergi anak"
+      ],
+      "grup": [
+        "anak"
+      ],
+      "ku": "Gatal dan bentol-bentol",
+      "rps": "Gatal/bentol kemerahan sejak x jam yang lalu, di (lokasi) (?), (menyebar) (?).\nBengkak bibir/kelopak mata/wajah (?), sulit menelan (?), suara serak (?), sesak/mengi (?), muntah (?), rewel/lemas (?).\nPencetus: makanan baru (telur/susu/kacang/seafood) (?), obat (?), gigitan serangga (?), sabun/deterjen (?).\nAlergi/asma/dermatitis atopik (?), reaksi serupa sebelumnya (?), alergi pada keluarga (?). Sudah minum antihistamin (?).",
+      "rpd": "Alergi/atopi (?)\nAsma -\nDermatitis atopik -",
       "alergi": "Obat (?)\nMakanan (?)"
     }
   }

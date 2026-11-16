@@ -14,7 +14,7 @@
       "rpd": "Penyakit jantung/stroke -\nHT -\nDM -\nGangguan perdarahan -",
       "rpo": "Antikoagulan/antiplatelet (?)"
     },
-    "Trauma - Cedera kepala": {
+    "Trauma - Cedera kepala (Dewasa)": {
       "alias": [
         "cedera kepala",
         "ckr",
@@ -24,10 +24,29 @@
         "trauma kepala",
         "tbi"
       ],
+      "grup": [
+        "dewasa"
+      ],
       "ku": "Cedera kepala",
       "rps": "Cedera kepala akibat (jatuh / KLL / dipukul / tertimpa benda) (?) pada x jam yang lalu, benturan di (frontal / parietal / temporal / oksipital) (?).\nPingsan (?) durasi x menit, amnesia (?), muntah x kali (?), kejang (?), nyeri kepala (?), pusing (?).\nKeluar darah/cairan dari hidung/telinga (?), memar sekitar mata/belakang telinga (?).\nKelemahan anggota gerak (?), bicara pelo (?), penglihatan ganda (?), nyeri leher (?). Luka robek di kepala (?), perdarahan aktif (?).\nAlkohol/obat (?), antikoagulan/antiplatelet (?).",
       "rpd": "Epilepsi -\nGangguan perdarahan -\nHT -\nDM -",
       "rpo": "Antikoagulan/antiplatelet (?)"
+    },
+    "Trauma - Cedera kepala (Anak)": {
+      "alias": [
+        "cedera kepala",
+        "ckr",
+        "cks",
+        "ckb",
+        "trauma kepala anak",
+        "jatuh anak"
+      ],
+      "grup": [
+        "anak"
+      ],
+      "ku": "Cedera kepala",
+      "rps": "Cedera kepala akibat (jatuh dari tempat tidur/gendongan/tangga/ketinggian x meter / KLL / tertimpa benda) (?) pada x jam yang lalu, benturan di (frontal / parietal / temporal / oksipital) (?).\nMenangis segera (?), pingsan (?) durasi x menit, muntah x kali (?), kejang (?), mengantuk/sulit dibangunkan (?), rewel terus-menerus (?).\nBenjol (?), luka robek (?), perdarahan (?), keluar darah/cairan dari hidung/telinga (?).\nMau makan/minum (?), perubahan perilaku (?), kelemahan anggota gerak (?). Penjelasan kejadian sesuai dengan cedera (?).",
+      "rpd": "Gangguan perdarahan -\nKejang -\nAsma -"
     },
     "Luka - Vulnus": {
       "alias": [
@@ -53,6 +72,9 @@
         "saraf kejepit",
         "skiatika",
         "nyeri punggung"
+      ],
+      "grup": [
+        "dewasa"
       ],
       "ku": "Nyeri punggung bawah",
       "rps": "Nyeri punggung bawah sejak x hari yang lalu, (mendadak / bertahap), setelah mengangkat beban/aktivitas/posisi lama (?).\nMenjalar ke bokong/tungkai (kanan/kiri) sampai (paha / betis / kaki) (?), kesemutan/kebas (?), kelemahan tungkai (?).\nMemberat dengan membungkuk/batuk/mengedan (?), membaik dengan istirahat (?).\nBAK/BAB tidak terkontrol (?), kebas area selangkangan (?).\nDemam (?), berat badan turun (?), trauma (?), keganasan (?), TB (?), nyeri malam hari (?) (red flag).",
