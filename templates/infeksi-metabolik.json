@@ -1,0 +1,91 @@
+{
+  "templates": {
+    "Demam - DBD": {
+      "alias": [
+        "dbd",
+        "dengue",
+        "dhf",
+        "demam berdarah",
+        "dengue fever"
+      ],
+      "ku": "Demam",
+      "rps": "Demam sejak x hari yang lalu, tinggi (?), terus-menerus (?), tanpa menggigil (?).\nNyeri kepala (?), nyeri belakang mata (?), nyeri otot/sendi (?). Mual (?), muntah (?), nyeri perut (?), nafsu makan menurun (?).\nMimisan (?), gusi berdarah (?), BAB hitam (?), bintik merah di kulit (?), haid banyak (?).\nTangan/kaki dingin (?), lemas (?), BAK berkurang (?).\nKeluarga/tetangga sakit serupa (?), lingkungan banyak nyamuk (?).",
+      "rpd": "DBD sebelumnya (?)\nAsma -\nHT -\nDM -"
+    },
+    "Demam - Tifoid": {
+      "alias": [
+        "tifoid",
+        "typhoid",
+        "tifus",
+        "demam tifoid"
+      ],
+      "ku": "Demam",
+      "rps": "Demam sejak x hari yang lalu, naik bertahap/lebih tinggi sore-malam (?), tidak turun dengan obat (?).\nNyeri perut (?), mual (?), muntah (?), BAB cair (?) / sulit BAB (?), lidah kotor (?), nafsu makan menurun (?).\nNyeri kepala (?), lemas (?), pusing (?), batuk (?). BAB hitam (?), perut kembung (?).\nSering jajan/makan di luar (?), riwayat tifoid sebelumnya (?)."
+    },
+    "Demam - ISK": {
+      "alias": [
+        "isk",
+        "infeksi saluran kemih",
+        "pielonefritis",
+        "sistitis",
+        "anyang-anyangan"
+      ],
+      "ku": "Demam",
+      "rps": "Demam sejak x hari yang lalu (?), menggigil (?).\nNyeri saat BAK (?), anyang-anyangan (?), sering BAK (?), BAK sedikit-sedikit (?), BAK berdarah (?), BAK keruh/berbau (?).\nNyeri pinggang (?), nyeri perut bawah (?). Mual (?), muntah (?).\nKeputihan (?), riwayat batu saluran kemih (?), ISK berulang (?), memakai kateter (?).",
+      "rpd": "ISK sebelumnya (?)\nBatu saluran kemih (?)\nDM -\nHT -"
+    },
+    "Batuk pilek - ISPA": {
+      "alias": [
+        "ispa",
+        "common cold",
+        "faringitis",
+        "tonsilitis",
+        "urti",
+        "nyeri tenggorok",
+        "radang tenggorokan"
+      ],
+      "ku": "Batuk pilek",
+      "rps": "Batuk sejak x hari yang lalu, (kering / berdahak) (?). Pilek (?), hidung tersumbat (?), bersin (?).\nNyeri tenggorok (?), nyeri menelan (?), suara serak (?). Demam (?), sejak x hari yang lalu.\nSesak (?), mengi (?). Nyeri telinga (?), nyeri wajah/pipi (?).\nKontak dengan orang sakit serupa (?). Perokok (?)."
+    },
+    "Lemas - Hiperglikemia/KAD": {
+      "alias": [
+        "hiperglikemia",
+        "kad",
+        "dka",
+        "hhs",
+        "dm tidak terkontrol",
+        "gula tinggi"
+      ],
+      "ku": "Lemas",
+      "rps": "Lemas sejak x hari yang lalu. Gula darah di rumah x mg/dL (?).\nBanyak minum (?), banyak BAK (?), mudah lapar (?), berat badan turun (?).\nMual (?), muntah (?), nyeri perut (?), napas cepat/dalam (?), napas berbau buah (?), penurunan kesadaran (?).\nDemam (?), batuk (?), nyeri BAK (?), luka kaki (?) (pencetus infeksi).\nKepatuhan insulin/OHO (?), putus obat (?), KAD sebelumnya (?).",
+      "rpd": "DM (?) sejak x tahun\nHT -\nPenyakit ginjal -\nPenyakit jantung -",
+      "rpo": "Insulin/OHO rutin (?), terakhir (?)"
+    },
+    "Lemas - Hipoglikemia": {
+      "alias": [
+        "hipoglikemia",
+        "gula rendah",
+        "hypoglycemia"
+      ],
+      "ku": "Lemas",
+      "rps": "Lemas/keringat dingin sejak x jam yang lalu, (mendadak) (?). Gemetar (?), berdebar (?), lapar (?), pusing (?), pandangan kabur (?).\nPenurunan kesadaran (?), kejang (?), bicara kacau/perilaku aneh (?).\nTelat makan/makan sedikit (?), aktivitas berat (?), muntah/diare (?).\nPemakaian insulin/OHO (?) jenis/dosis (?), salah dosis (?), gula darah di rumah (?).\nHipoglikemia sebelumnya (?), alkohol (?), penyakit hati/ginjal (?).",
+      "rpd": "DM (?)\nPenyakit ginjal (?)\nPenyakit hati (?)\nHT -",
+      "rpo": "Insulin/OHO rutin (?), terakhir (?)"
+    },
+    "Reaksi alergi - Urtikaria/Anafilaksis": {
+      "alias": [
+        "alergi",
+        "urtikaria",
+        "anafilaksis",
+        "angioedema",
+        "biduran",
+        "gatal",
+        "reaksi alergi"
+      ],
+      "ku": "Gatal dan bentol-bentol",
+      "rps": "Gatal, bentol/kemerahan sejak x jam yang lalu, di (lokasi) (?), (menyebar) (?).\nBengkak bibir/kelopak mata/wajah (?), sulit menelan (?), suara serak (?), sesak/mengi (?).\nPusing (?), lemas (?), pingsan (?), mual (?), muntah (?), nyeri perut (?), BAB cair (?).\nPencetus: makanan (?), obat (?), gigitan serangga (?), kosmetik/deterjen (?), debu/dingin (?).\nRiwayat alergi/asma/atopi (?), reaksi serupa sebelumnya (?). Sudah minum antihistamin (?).",
+      "rpd": "Alergi/atopi (?)\nAsma (?)\nHT -\nDM -",
+      "alergi": "Obat (?)\nMakanan (?)"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "templates": {
+    "Trauma - KLL": {
+      "alias": [
+        "kll",
+        "kecelakaan lalu lintas",
+        "kecelakaan",
+        "trauma tumpul",
+        "multiple trauma",
+        "jatuh dari motor"
+      ],
+      "ku": "Kecelakaan lalu lintas",
+      "rps": "Kecelakaan lalu lintas pada x jam yang lalu, (sepeda motor / mobil / pejalan kaki), (menabrak / ditabrak / terjatuh) (?), kecepatan ± x km/jam (?). Memakai helm/sabuk pengaman (?). Terpental (?).\nPingsan (?) durasi x menit, ingat kejadian (?), muntah (?), kejang (?), keluar darah/cairan dari telinga/hidung (?).\nNyeri di (kepala / leher / dada / perut / punggung / panggul / anggota gerak) (?), sesak (?), kebas/kelemahan anggota gerak (?). Luka terbuka/perdarahan (?).\nAlkohol/obat sebelum kejadian (?). Makan/minum terakhir pukul x (?).",
+      "rpd": "Penyakit jantung/stroke -\nHT -\nDM -\nGangguan perdarahan -",
+      "rpo": "Antikoagulan/antiplatelet (?)"
+    },
+    "Trauma - Cedera kepala": {
+      "alias": [
+        "cedera kepala",
+        "ckr",
+        "cks",
+        "ckb",
+        "head injury",
+        "trauma kepala",
+        "tbi"
+      ],
+      "ku": "Cedera kepala",
+      "rps": "Cedera kepala akibat (jatuh / KLL / dipukul / tertimpa benda) (?) pada x jam yang lalu, benturan di (frontal / parietal / temporal / oksipital) (?).\nPingsan (?) durasi x menit, amnesia (?), muntah x kali (?), kejang (?), nyeri kepala (?), pusing (?).\nKeluar darah/cairan dari hidung/telinga (?), memar sekitar mata/belakang telinga (?).\nKelemahan anggota gerak (?), bicara pelo (?), penglihatan ganda (?), nyeri leher (?). Luka robek di kepala (?), perdarahan aktif (?).\nAlkohol/obat (?), antikoagulan/antiplatelet (?).",
+      "rpd": "Epilepsi -\nGangguan perdarahan -\nHT -\nDM -",
+      "rpo": "Antikoagulan/antiplatelet (?)"
+    },
+    "Luka - Vulnus": {
+      "alias": [
+        "vulnus",
+        "luka robek",
+        "luka tusuk",
+        "vulnus laceratum",
+        "vulnus punctum",
+        "luka sayat",
+        "gigitan"
+      ],
+      "ku": "Luka",
+      "rps": "Luka di (lokasi) sejak x jam yang lalu akibat (benda tajam / tumpul / jatuh / gigitan) (?), benda kotor/berkarat (?), terkontaminasi tanah/air kotor (?).\nPerdarahan (?), sudah ditekan/dihentikan (?). Nyeri (?), kebas/kesemutan (?), sulit menggerakkan jari/sendi (?).\nImunisasi tetanus terakhir x tahun lalu (?) / tidak diketahui (?). Gigitan hewan: jenis (?), vaksin hewan (?).\nSudah diberi obat/ditutup/dijahit sebelumnya (?).",
+      "rpd": "Imunisasi tetanus (?)\nDM -\nGangguan perdarahan -\nHT -"
+    },
+    "Nyeri punggung - LBP/HNP": {
+      "alias": [
+        "lbp",
+        "hnp",
+        "low back pain",
+        "nyeri pinggang",
+        "ischialgia",
+        "saraf kejepit",
+        "skiatika",
+        "nyeri punggung"
+      ],
+      "ku": "Nyeri punggung bawah",
+      "rps": "Nyeri punggung bawah sejak x hari yang lalu, (mendadak / bertahap), setelah mengangkat beban/aktivitas/posisi lama (?).\nMenjalar ke bokong/tungkai (kanan/kiri) sampai (paha / betis / kaki) (?), kesemutan/kebas (?), kelemahan tungkai (?).\nMemberat dengan membungkuk/batuk/mengedan (?), membaik dengan istirahat (?).\nBAK/BAB tidak terkontrol (?), kebas area selangkangan (?).\nDemam (?), berat badan turun (?), trauma (?), keganasan (?), TB (?), nyeri malam hari (?) (red flag).",
+      "rpd": "HNP/LBP (?)\nKeganasan (?)\nTB -\nOsteoporosis (?)\nHT -\nDM -"
+    }
+  }
+}
